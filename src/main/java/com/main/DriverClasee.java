@@ -23,6 +23,8 @@ public class DriverClasee {
 		
 		System.out.println("opening browser class done success");
 		
+		System.out.println("actual master");
+		
 		driver.quit();
 	}
 }
