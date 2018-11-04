@@ -3,4 +3,33 @@
   <groupId>Demo4</groupId>
   <artifactId>Demo1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+    
+  <dependencies>
+  
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.13.0</version>
+	</dependency>
+  				
+  				
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>3.13.0</version>
+	</dependency>
+	
+		  
+	 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-api</artifactId>
+	    <version>3.13.0</version>
+	</dependency>
+  
+  				
+  </dependencies>
 </project>
