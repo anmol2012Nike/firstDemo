@@ -21,6 +21,8 @@ public class DriverClasee {
 		
 		driver.get("https://www.expedia.com/");
 		
+		System.out.println("opening browser");
+		
 		driver.quit();
 	}
 }
