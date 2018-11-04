@@ -21,7 +21,9 @@ public class DriverClasee {
 		
 		driver.get("https://www.expedia.com/");
 		
-		System.out.println("opening browser class done success");
+		System.out.println("opening browser class done successfully");
+		
+		System.out.println("master");
 		
 		System.out.println("actual master");
 		
