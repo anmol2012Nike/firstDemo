@@ -5,12 +5,12 @@ pipeline {
     stages{
         stage('build'){
             steps{
-                    print "inside build"
+                    echo "inside build"
                   }
          }
          stage('Deploy'){
              steps{
-                     print "deploy"
+                     echo "deploy"
                    }
          }
        }
