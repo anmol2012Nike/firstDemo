@@ -6,7 +6,7 @@ pipeline {
         stage('Build'){
             steps{
                     echo "inside build"
-                    sh 'mvn clean package'
+                    'mvn clean package'
                   }
 
             post{
