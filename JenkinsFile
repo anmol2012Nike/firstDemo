@@ -3,15 +3,19 @@ pipeline {
     agent any
     
     stages{
-        stage('build'){
+        stage('Build'){
             steps{
                     echo "inside build"
+                    sh 'mvn clean package'
                   }
+
+            post{
+              success{
+                echo "now archiving"
+                archiveArtifacts artifacts: '**/target/*.jar'
+              }
+            }      
          }
-         stage('Deploy'){
-             steps{
-                     echo "deploy"
-                   }
-         }
+        
        }
      }                           
